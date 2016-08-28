@@ -1015,7 +1015,7 @@ header .social  ul li.active span{
 	min-height: 40px;
 	filter:none!important;
 	float: left;
-	width: 200px;
+	width: 7vw;
 	/*background-image: url("upper-left.png");*/
 }
 .up-left{
@@ -1041,7 +1041,7 @@ header .social  ul li.active span{
 	min-height: 40px;
 	filter:none!important;
 	float: right;
-	width: 200px;
+	width: 7vw;
 }
 .up-right{
 	border: none;
@@ -1053,6 +1053,13 @@ header .social  ul li.active span{
 }
 
 /* Donji deo*/
+.holder
+{
+	bottom:5.5vh;
+	z-index:100;
+	position:relative;
+}
+
 
 .low-left {
 	background: #050505;
@@ -1067,7 +1074,7 @@ header .social  ul li.active span{
 	min-height: 40px;
 	filter:none!important;
 	float: left;
-	width: 200px;
+	width: 7vw;
 	/*background-image: url("upper-left.png");*/
 }
 .lower-left{
@@ -1093,7 +1100,7 @@ header .social  ul li.active span{
 	min-height: 40px;
 	filter:none!important;
 	float: right;
-	width: 200px;
+	width: 7vw;
 }
 .lower-right{
 	border: none;
