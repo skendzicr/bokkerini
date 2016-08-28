@@ -1,7 +1,5 @@
 Pre svega instaliraj NodeJS, NPM i Bower.
-"init": "npm i && bower i && gulp",
-"start": "gulp",
-"build": "gulp prod"
+
 ### Initial
 
 ```sh
