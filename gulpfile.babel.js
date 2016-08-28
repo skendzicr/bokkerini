@@ -15,7 +15,7 @@ const fs = require('fs')
 
 // Synchronised browser testing
 // https://www.browsersync.io/
-gulp.task('serve', ['sass', 'concat'], () => {
+gulp.task('serve', ['concat'], () => {
   browserSync.init({
     server: ['./app', './.tmp']
   })
@@ -41,7 +41,7 @@ gulp.task('minify-css', function () {
 
 // https://www.npmjs.com/package/gulp-image
 gulp.task('images', () =>
-  gulp.src(['./app/images/**/*.{jpg,png,jpeg,gif}'])
+  gulp.src(['./app/img/**/*.{jpg,png,jpeg,gif}'])
     .pipe(imagemin(
     {
       optimizationLevel: 5,
